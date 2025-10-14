@@ -10,9 +10,6 @@ Permitir que o aluno insira:
 Calcular o IMC usando a fórmula:
 IMC = peso / (altura × altura)
 
-markdown
-Copiar código
-
 Exibir:
 - O valor do IMC calculado  
 - Uma mensagem com a classificação (ex: “Abaixo do peso”, “Peso normal”, “Sobrepeso”, “Obesidade”)  
@@ -50,17 +47,12 @@ Digite seu peso (em kg): 75
 Rafael, seu IMC é 23.15
 Classificação: Peso normal
 
-Deseja inserir novo registro? (s/n): s
-Digite sua altura (em metros): 1.80
-Digite seu peso (em kg): 78
-
 Histórico de registros:
 Data | Altura | Peso | IMC | Classificação
 2025-10-14 | 1.80 | 75 | 23.15 | Peso normal
 2025-10-20 | 1.80 | 78 | 24.07 | Peso normal
 
-shell
-Copiar código
+
 
 ## 📁 Estrutura de arquivos sugerida
 /
@@ -69,13 +61,3 @@ Copiar código
 ├── historico.txt (ou arquivo para salvar registros)
 └── requirements.txt (caso haja dependências externas)
 
-markdown
-Copiar código
-
-## ✅ Possíveis melhorias futuras
-- Exportar histórico para CSV ou PDF  
-- Criar interface gráfica simples (Tkinter, JavaFX etc.)  
-- Adicionar gráficos para mostrar evolução do IMC  
-- Enviar alertas ou notificações quando o aluno atingir metas  
-- Validação mais robusta de entradas (altura = 0 ou peso negativo)  
-- Permitir múltiplos usuários com login
